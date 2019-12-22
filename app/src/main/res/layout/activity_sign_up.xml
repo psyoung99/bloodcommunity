@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:text="회원가입"
+        android:textSize="30dp"
+        android:textColor="@color/bloodcommuTitle"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtSignUpId"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:hint="아이디" />
+
+    <EditText
+        android:id="@+id/edtSignUpPwd"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:hint="비밀번호" />
+
+    <EditText
+        android:id="@+id/edtSignUpPwdChk"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="비밀번호 확인"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edtSignUpPhoneNum"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:hint="전화번호" />
+
+    <EditText
+        android:id="@+id/edtSignUpName"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:hint="이름" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="225dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="집주소"
+            android:padding="10dp"
+            android:id="@+id/edtSignUpLocation"
+            android:layout_marginLeft="63dp"/>
+
+        <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:backgroundTint="#80D57474"
+            android:background="@drawable/border_design"
+            android:text="검색"
+            android:textColor="@color/loginButton"
+            android:id="@+id/SignUpFind"/>
+
+    </LinearLayout>
+
+    <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="완료"
+            android:textColor="@color/loginButton"
+            android:backgroundTint="#80D57474"
+            android:background="@drawable/border_design"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtSignUpSignUp"/>
+</LinearLayout>

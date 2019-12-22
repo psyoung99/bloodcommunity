@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorButtonbgr">#CC000000</color>
+    <color name="bloodcommuTitle">#974640</color>
+    <color name="loginButton">#FFFFFF</color>
+    <color name="cancel">#AC6E6E</color>
+    <color name="logintext">#D57474</color>
+    <color name="commutitle">#974640</color>
+    <color name="commutitle2">#AF6E69</color>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearHome"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/linearHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHomeWrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="글 작성" />
+
+    </LinearLayout>
+</RelativeLayout>

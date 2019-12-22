@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BloodCommunity</string>
+    <string name="title_activity_community">CommunityActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">sysister</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_document">글 작성하기</string>
+    <string name="menu_barcode">바코드</string>
+    <string name="menu_information">헌혈 정보</string>
+    <string name="menu_detailInformation">세부 사항</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_commu">CommuActivity</string>
+
+    <string name="menu_home">Community</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+</resources>

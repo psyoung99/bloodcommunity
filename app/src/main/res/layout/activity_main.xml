@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/blood_titleicon"/>
+    <TextView
+        android:id="@+id/MainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Blood Community"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/bloodcommuTitle"/>
+
+    <EditText
+        android:id="@+id/edtMainId"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="아이디"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtMainPwd"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_https_black_24dp"
+        android:drawableLeft="@drawable/ic_https_black_24dp"
+        android:hint="비밀번호"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/MainLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_design"
+        android:backgroundTint="#80D57474"
+        android:text="로그인"
+        android:textColor="@color/loginButton"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MainSignUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="회원가입"
+        android:textColor="@color/logintext"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

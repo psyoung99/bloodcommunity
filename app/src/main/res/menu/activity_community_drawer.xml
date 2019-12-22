@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_document"
+            android:icon="@drawable/ic_comment_black_24dp"
+            android:title="커뮤니티" />
+        <item
+            android:id="@+id/nav_barcode"
+            android:icon="@drawable/ic_crop_free_black_24dp"
+            android:title="@string/menu_barcode"/>
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="@string/menu_information" />
+        <item
+            android:id="@+id/nav_detailInformation"
+            android:icon="@drawable/ic_details_black_24dp"
+            android:title="@string/menu_detailInformation" />
+    </group>
+</menu>

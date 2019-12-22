@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyPageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="@color/loginButton">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/blood_icon"
+            android:maxWidth="35dp"
+            android:maxHeight="35dp"
+            android:adjustViewBounds="true"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="My Page"
+            android:textSize="20dp"
+            android:textColor="@color/logintext"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/MyPageDocument"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_design"
+        android:text="내 글" />
+
+    <Button
+        android:id="@+id/MyPageChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_design"
+        android:text="내 채팅방" />
+
+    <Button
+        android:id="@+id/MyPageGifticon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_design"
+        android:text="기프티콘"/>
+
+    <Button
+        android:id="@+id/MyPageChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_design"
+        android:text="사용자 정보 수정" />
+
+    <Button
+        android:id="@+id/MyPageOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_design"
+        android:text="회원 탈퇴" />
+
+</LinearLayout>

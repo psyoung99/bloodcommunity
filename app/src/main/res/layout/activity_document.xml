@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="제목을 입력하세요."
+    android:background="#26D57474"
+    android:id="@+id/titleDocument"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:hint="내용을 입력하세요."
+        android:background="#1AD57474"
+        android:id="@+id/contentDocument"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnDocCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border_design"
+            android:backgroundTint="@color/cancel"
+            android:text="취소"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/loginButton" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="등록"
+            android:textColor="@color/loginButton"
+            android:backgroundTint="@color/logintext"
+            android:background="@drawable/border_design"
+            android:id="@+id/submitDocument"
+            android:onClick="documentFunction"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>
