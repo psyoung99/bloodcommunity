@@ -65,7 +65,7 @@ public class GalleryFragment extends Fragment {
                 Toast.makeText(getContext(),"카메라가 취소되었습니다",Toast.LENGTH_SHORT).show();
                 return;
             }
-            //바코드 이름(사용자 직접 입력) -> dialog로 구현
+            //바코드 이름,유효기간(사용자 직접 입력) -> dialog로 구현
             final Camera_afterdialog dialog = new Camera_afterdialog(getContext(), "바코드 이름 저장");
             dialog.setContentView(R.layout.camera_after_dialog);
             //dialog size
@@ -88,7 +88,7 @@ public class GalleryFragment extends Fragment {
                     //데이터 저장
                     //        Log.d("정보",dialog.barcode_name);
                     GifticonDB GifticonInfo = new GifticonDB(mId, result.getContents(),
-                            result.getBarcodeImagePath(), dialog.barcode_name);
+                            result.getBarcodeImagePath(), dialog.barcode_name,dialog.barcode_due);
 
                     mDatabase.child(result.getContents()).setValue(GifticonInfo);
                     Toast.makeText(getContext(), dialog.barcode_name + " 바코드가 저장되었습니다", Toast.LENGTH_LONG).show();

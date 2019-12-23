@@ -9,6 +9,12 @@
         android:layout_height="wrap_content"
         android:hint="바코드 이름을 입력하세요"/>
 
+    <EditText
+        android:id="@+id/barcodedue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="바코드 유효기간을 입력하세요"/>
+
     <Button
         android:id="@+id/save_as_btn"
         android:layout_width="wrap_content"

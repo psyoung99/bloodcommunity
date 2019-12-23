@@ -58,6 +58,7 @@ public class GifticonActivity extends AppCompatActivity {
                                 Log.d("정보",Gifticondata.getImagePath());
                                 Gifticondata.setName(GifticonInfo.getName());
                                 Gifticondata.setBarcode(GifticonInfo.getBarcode());
+                                Gifticondata.setDue(GifticonInfo.getDue());
                                 adapter.addItem(Gifticondata);
                             }
                         }

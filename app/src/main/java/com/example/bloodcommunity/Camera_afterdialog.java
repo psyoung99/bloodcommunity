@@ -12,6 +12,7 @@ import android.widget.EditText;
 public class Camera_afterdialog extends Dialog {
 
     public String barcode_name;
+    public String barcode_due;
     private String mTitle;
 
     @Override
@@ -26,7 +27,8 @@ public class Camera_afterdialog extends Dialog {
             @Override
             public void onClick(View view) {
                 barcode_name = ((EditText) (findViewById(R.id.barcodename))).getText().toString();
-                if (barcode_name != null) {
+                barcode_due = ((EditText)(findViewById(R.id.barcodedue))).getText().toString();
+                if (barcode_name != null && barcode_due != null) {
                     Log.d("정보", barcode_name);
                     cancel();
                 }

@@ -7,11 +7,11 @@ public class GifticonData {
     private String ImagePath;
     private String barcode;
     private String name;
+    private String due;
 
     public String getImagePath() {
         return ImagePath;
     }
-
     public void setImagePath(String ImagePath) {
         this.ImagePath = ImagePath;
     }
@@ -23,5 +23,8 @@ public class GifticonData {
 
     public String getName() {return name;}
     public void setName(String name) {this.name = name;}
+
+    public String getDue() {return due;}
+    public void setDue(String due) {this.due = due;}
 }
 

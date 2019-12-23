@@ -142,6 +142,8 @@ public class GifticonAdapter extends BaseAdapter {
         barcodenum.setText(getItem(i).getBarcode());
         TextView barcodename = view.findViewById(R.id.barcode_nametv);
         barcodename.setText(getItem(i).getName());
+        TextView barcodedue = view.findViewById(R.id.barcode_duetv);
+        barcodedue.setText("유효기간: ~ "+getItem(i).getDue());
 
          return view;
     }

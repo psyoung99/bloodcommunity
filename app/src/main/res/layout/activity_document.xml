@@ -2,17 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-<EditText
+    <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="제목을 입력하세요."
     android:background="#26D57474"
     android:id="@+id/titleDocument"
     />
+
+    <EditText
+        android:id="@+id/docblood"
+        android:hint="혈액형을 입력하세요"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/docnum"
+        android:hint="필요한 헌혈증 개수를 입력하세요."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="7"
+        android:layout_weight="6"
         android:hint="내용을 입력하세요."
         android:background="#1AD57474"
         android:id="@+id/contentDocument"

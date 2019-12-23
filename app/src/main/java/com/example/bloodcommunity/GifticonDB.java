@@ -8,16 +8,18 @@ public class GifticonDB {
     public String barcode;
     public String imagePath;
     public String name;
+    public String due;
 
     public GifticonDB() {
         //DataSnapshot.getValue(GifticonDB.class)에 대한 콜 호출
     }
 
-    public GifticonDB(String id, String barcode, String imagePath, String name) {
+    public GifticonDB(String id, String barcode, String imagePath, String name, String due) {
         this.id = id;
         this.barcode = barcode;
         this.imagePath = imagePath;
         this.name = name;
+        this.due = due;
     }
 
     public Map<String, Object> toMap() {
@@ -26,6 +28,7 @@ public class GifticonDB {
         result.put("barcode", barcode);
         result.put("imagePath", imagePath);
         result.put("name",name);
+        result.put("due",due);
 
         return result;
     }
@@ -56,6 +59,10 @@ public class GifticonDB {
 
     public String getName() {
         return name;
+    }
+
+    public String getDue() {
+        return due;
     }
 
 }
